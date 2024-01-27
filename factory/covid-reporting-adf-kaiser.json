@@ -1,0 +1,9 @@
+{
+	"name": "covid-reporting-adf-kaiser",
+	"location": "westeurope",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "80afed5b-2c07-4d8a-91b6-1107a556d8d0",
+		"tenantId": "484ccc33-90a3-40e4-adae-92bd6a226e3b"
+	}
+}
