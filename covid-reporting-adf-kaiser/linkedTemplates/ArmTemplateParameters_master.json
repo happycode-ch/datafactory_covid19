@@ -1,0 +1,36 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "covid-reporting-adf-kaiser"
+		},
+		"ls_ablob_covidreportingsa_kaiser_connectionString": {
+			"value": ""
+		},
+		"ls_adls_covidreportingdl_kaiser_accountKey": {
+			"value": ""
+		},
+		"ls_db_covid_cluster_accessToken": {
+			"value": ""
+		},
+		"ls_sql_covid_db_connectionString": {
+			"value": ""
+		},
+		"ls_adls_covidreportingdl_kaiser_properties_typeProperties_url": {
+			"value": "https://covidreportingdlkaiser.dfs.core.windows.net/"
+		},
+		"ls_http_opendata_ecdc europa_eu_properties_typeProperties_url": {
+			"value": "@{linkedService().sourceBaseURL}"
+		},
+		"tr_population_data_arrived_properties_typeProperties_scope": {
+			"value": "/subscriptions/9a1741a4-8d1c-4dcc-974f-145aecc84740/resourceGroups/covid-reporting-rg/providers/Microsoft.Storage/storageAccounts/covidreportingsakaiser"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
