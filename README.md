@@ -1,2 +1,7 @@
-# datafactory_covid19
-Azure Data Factory - Covid-19, EU EEA Reporting Project
+# Designing a Data Platform for Covid-19 Analysis and Prediction in the EU and UK
+### An Azure Data Factory-Focused Data Engineering Solution
+\
+#### Developer: Anthony Calek
+#### Platform: Microsoft Azure
+#### Date: Jan 2024
+
